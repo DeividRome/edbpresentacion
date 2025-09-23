@@ -66,7 +66,7 @@ const SecuritySlide = ({ data }) => {
       {/* Security Stats */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold text-[#043172] text-center mb-6">
-          Números que Respaldan Nuestra Seguridad
+          Números que Respaldan nuestra Seguridad
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
