@@ -71,7 +71,7 @@ const PostgreSQLSlide = ({ data }) => {
       {/* Benefits Grid */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold text-[#043172] text-center mb-6">
-          ¿Por qué PostgreSQL es la Elección Inteligente?
+          ¿Por qué PostgreSQL es la elección inteligente?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {data.postgresql.benefits.map((benefit, index) => {
@@ -99,7 +99,7 @@ const PostgreSQLSlide = ({ data }) => {
       {/* Bottom Message */}
       <div className="text-center p-8 bg-gradient-to-r from-[#043172] to-[#50E4FE] rounded-2xl text-white">
         <h2 className="text-2xl font-bold mb-4">
-          PostgreSQL: Probado en Producción Mundial
+          PostgreSQL: Probado en producción mundial
         </h2>
         <p className="text-lg opacity-90 max-w-4xl mx-auto leading-relaxed">
           Desde startups hasta Fortune 500, PostgreSQL impulsa las aplicaciones más críticas del mundo. 
