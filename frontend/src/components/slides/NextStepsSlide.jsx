@@ -74,7 +74,7 @@ const NextStepsSlide = ({ data }) => {
               
               {/* Action Button */}
               <Button 
-                size="sm" 
+                size="lg" 
                 className={`w-full bg-gradient-to-r ${colors[index]} hover:opacity-90 text-white text-xs sm:text-sm group-hover:shadow-lg transition-all duration-200`}
               >
                 {step.action}
@@ -88,7 +88,7 @@ const NextStepsSlide = ({ data }) => {
       {/* Contact Information */}
       <div className="mb-8 p-6 sm:p-8 bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl border border-gray-200">
         <h2 className="text-xl sm:text-2xl font-bold text-[#043172] text-center mb-6">
-          Contacte a Nuestro Equipo de Expertos
+          Contacte a nuestro equipo de expertos
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
@@ -130,7 +130,7 @@ const NextStepsSlide = ({ data }) => {
       {/* Success Timeline */}
       <div className="mb-8 p-6 sm:p-8 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl border-2 border-green-200">
         <h2 className="text-xl sm:text-2xl font-bold text-[#043172] text-center mb-6">
-          Su Camino al Éxito con EDB PostgreSQL AI
+          Su camino al éxito con EDB PostgreSQL AI
         </h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
@@ -161,7 +161,7 @@ const NextStepsSlide = ({ data }) => {
       {/* Final CTA */}
       <div className="text-center p-6 sm:p-8 bg-gradient-to-r from-[#043172] to-[#50E4FE] rounded-2xl text-white">
         <h2 className="text-xl sm:text-2xl font-bold mb-4">
-          Transforme su Infraestructura de Datos Hoy
+          Transforme su infraestructura de datos hoy
         </h2>
         <p className="text-base sm:text-lg opacity-90 max-w-4xl mx-auto leading-relaxed mb-6">
           Más de 1,500 empresas ya confían en EDB PostgreSQL AI. Únase a ellas y experimente 
@@ -173,7 +173,7 @@ const NextStepsSlide = ({ data }) => {
             size="lg"
             className="bg-white text-[#043172] hover:bg-gray-100 font-semibold px-6 sm:px-8 py-2 sm:py-3"
           >
-            Comenzar Evaluación Gratuita
+            Comenzar evaluación gratuita
             <Play className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
           </Button>
           
@@ -182,7 +182,7 @@ const NextStepsSlide = ({ data }) => {
             size="lg" 
             className="border-white text-white hover:bg-white/10 font-semibold px-6 sm:px-8 py-2 sm:py-3"
           >
-            Programar Demo Personalizada
+            Programar demo personalizada
             <Users className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
           </Button>
         </div>
