@@ -1,6 +1,6 @@
 export const presentationData = {
   intro: {
-    title: "¿Por qué los Datos son el Nuevo Petróleo?",
+    title: "¿Por qué los datos son el nuevo petróleo?",
     stats: [
       {
         value: "2x",
@@ -21,7 +21,7 @@ export const presentationData = {
   },
   
   problems: {
-    title: "El Problema Actual: Sistemas Fragmentados",
+    title: "El problema actual: Sistemas fragmentados",
     issues: [
       {
         title: "Múltiples bases de datos",
@@ -51,7 +51,7 @@ export const presentationData = {
   },
 
   postgresql: {
-    title: "PostgreSQL: El Motor de Base de Datos Más Amado",
+    title: "PostgreSQL: El motor de Base de Datos más amado",
     facts: [
       {
         metric: "#1",
@@ -105,7 +105,7 @@ export const presentationData = {
   },
 
   pillars: {
-    title: "Los Tres Pilares de EDB PostgreSQL AI",
+    title: "Los tres pilares de EDB PostgreSQL AI",
     pillar1: {
       title: "Base de Datos Unificada",
       features: [
@@ -182,19 +182,19 @@ export const presentationData = {
     title: "Seguridad Empresarial: Protección por Diseño",
     features: [
       {
-        name: "Cifrado Transparente de Datos (TDE)",
+        name: "Cifrado transparente de datos (TDE)",
         description: "Sus datos están encriptados automáticamente",
         level: "Automático",
         icon: "Lock"
       },
       {
-        name: "Control de Acceso Granular",
+        name: "Control de acceso granular",
         description: "Hasta nivel de fila individual",
         level: "Granular",
         icon: "UserCheck"
       },
       {
-        name: "Auditoría Completa",
+        name: "Auditoría completa",
         description: "Registro de todo lo que pasa",
         level: "Total",
         icon: "FileText"
@@ -214,10 +214,10 @@ export const presentationData = {
   },
 
   useCases: {
-    title: "Casos de Uso Reales",
+    title: "Casos de uso reales",
     cases: [
       {
-        title: "Modernización de Aplicaciones Legadas",
+        title: "Modernización de aplicaciones legadas",
         description: "Migración desde Oracle con 95% menos reescritura de aplicaciones",
         benefits: ["95% menos reescritura", "80% reducción de costos", "Compatible con sistemas existentes"],
         icon: "RefreshCw",
@@ -231,7 +231,7 @@ export const presentationData = {
         color: "purple"
       },
       {
-        title: "Análisis en Tiempo Real",
+        title: "Análisis en tiempo real",
         description: "Insights 30X más rápidos desde datos operacionales",
         benefits: ["30X más velocidad", "Sin pipelines ETL", "Lakehouse integrado"],
         icon: "Zap",
@@ -258,7 +258,7 @@ export const presentationData = {
   },
 
   highAvailability: {
-    title: "Alta Disponibilidad: Siempre Funcionando",
+    title: "Alta Disponibilidad: Siempre funcionando",
     features: [
       {
         name: "Arquitectura Geo-distribuida",
@@ -267,13 +267,13 @@ export const presentationData = {
         icon: "Globe"
       },
       {
-        name: "Failover Automático",
+        name: "Failover automático",
         description: "Si algo falla, el sistema se recupera solo",
         detail: "Recuperación en menos de 30 segundos",
         icon: "RotateCcw"
       },
       {
-        name: "Clusters que se Auto-curan",
+        name: "Clusters que se auto-curan",
         description: "Tecnología que se repara a sí misma",
         detail: "Detección y corrección proactiva",
         icon: "Heart"
@@ -306,7 +306,7 @@ export const presentationData = {
         icon: "Search"
       },
       {
-        name: "AI Copilot para Migración",
+        name: "AI Copilot para migración",
         description: "Asistente de IA para migraciones",
         features: ["Conversión de código", "Optimización automática", "Mejores prácticas"],
         icon: "Bot"
@@ -327,7 +327,7 @@ export const presentationData = {
   },
 
   benefits: {
-    title: "Beneficios de Negocio Cuantificados",
+    title: "Beneficios de negocio cuantificados",
     metrics: [
       {
         value: "6X",
@@ -397,7 +397,7 @@ export const presentationData = {
     steps: [
       {
         step: "1",
-        title: "Evaluación Gratuita",
+        title: "Evaluación gratuita",
         description: "Tech preview de EDB Postgres AI",
         action: "Comenzar ahora",
         duration: "15 minutos",
