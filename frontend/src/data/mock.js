@@ -429,9 +429,9 @@ export const presentationData = {
       }
     ],
     contact: {
-      sales: "ventas@edb.com",
-      support: "soporte@edb.com",
-      technical: "tecnico@edb.com"
+      sales: "ventas@westtelco.com.mx",
+      support: "soporte@westtelco.com.mx",
+      technical: "dromero@westtelco.com.mx"
     }
   }
 };
