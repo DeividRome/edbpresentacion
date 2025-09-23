@@ -211,5 +211,227 @@ export const presentationData = {
       coverage: "100%",
       compliance: ["GDPR", "PCI DSS", "SOC2", "HIPAA"]
     }
+  },
+
+  useCases: {
+    title: "Casos de Uso Reales",
+    cases: [
+      {
+        title: "Modernización de Aplicaciones Legadas",
+        description: "Migración desde Oracle con 95% menos reescritura de aplicaciones",
+        benefits: ["95% menos reescritura", "80% reducción de costos", "Compatible con sistemas existentes"],
+        icon: "RefreshCw",
+        color: "blue"
+      },
+      {
+        title: "IA Empresarial Soberana",
+        description: "Desarrollo de aplicaciones de GenAI sin exponer datos sensibles",
+        benefits: ["Modelos junto a datos", "Cumplimiento automático", "Control total"],
+        icon: "Brain",
+        color: "purple"
+      },
+      {
+        title: "Análisis en Tiempo Real",
+        description: "Insights 30X más rápidos desde datos operacionales",
+        benefits: ["30X más velocidad", "Sin pipelines ETL", "Lakehouse integrado"],
+        icon: "Zap",
+        color: "green"
+      }
+    ],
+    testimonials: [
+      {
+        company: "ACI Worldwide",
+        quote: "EDB Postgres AI Distributed HA nos dio lo que necesitábamos en una sola solución de menor costo, sin complementos adicionales.",
+        role: "Director de Tecnología"
+      },
+      {
+        company: "USDA Forest Service",
+        quote: "EDB Postgres AI nos proporcionó las capacidades de rendimiento y gestión de datos que necesitábamos, todo a un costo increíblemente menor.",
+        role: "Gerente de Sistemas"
+      },
+      {
+        company: "Murex",
+        quote: "Queríamos dar el mejor soporte posible a las aplicaciones ejecutándose en Postgres, por eso decidimos trabajar con EDB.",
+        role: "Arquitecto de Soluciones"
+      }
+    ]
+  },
+
+  highAvailability: {
+    title: "Alta Disponibilidad: Siempre Funcionando",
+    features: [
+      {
+        name: "Arquitectura Geo-distribuida",
+        description: "Sus datos en múltiples ubicaciones",
+        detail: "Replicación automática entre regiones",
+        icon: "Globe"
+      },
+      {
+        name: "Failover Automático",
+        description: "Si algo falla, el sistema se recupera solo",
+        detail: "Recuperación en menos de 30 segundos",
+        icon: "RotateCcw"
+      },
+      {
+        name: "Clusters que se Auto-curan",
+        description: "Tecnología que se repara a sí misma",
+        detail: "Detección y corrección proactiva",
+        icon: "Heart"
+      },
+      {
+        name: "99.999% Disponibilidad",
+        description: "Equivale a solo 5.26 minutos de caída al año",
+        detail: "SLA empresarial garantizado",
+        icon: "Shield"
+      }
+    ],
+    kubernetes: {
+      title: "Kubernetes y Contenedores: Tecnología del Futuro",
+      benefits: [
+        "EDB CloudNativePG: Operador líder",
+        "Automatización completa",
+        "Arquitectura cloud-native",
+        "80% reducción en TCO"
+      ]
+    }
+  },
+
+  migration: {
+    title: "Migración y Herramientas",
+    tools: [
+      {
+        name: "Portal de Migración EDB",
+        description: "Análisis automático de compatibilidad",
+        features: ["Evaluación automática", "Reporte detallado", "Estimación de esfuerzo"],
+        icon: "Search"
+      },
+      {
+        name: "AI Copilot para Migración",
+        description: "Asistente de IA para migraciones",
+        features: ["Conversión de código", "Optimización automática", "Mejores prácticas"],
+        icon: "Bot"
+      },
+      {
+        name: "Replicación en Tiempo Real",
+        description: "Migración sin parar operaciones",
+        features: ["Cero tiempo de inactividad", "Sincronización continua", "Rollback seguro"],
+        icon: "Repeat"
+      },
+      {
+        name: "LiveCompare",
+        description: "Validación automática de datos migrados",
+        features: ["Verificación completa", "Reportes de diferencias", "Certificación de calidad"],
+        icon: "CheckCircle"
+      }
+    ]
+  },
+
+  benefits: {
+    title: "Beneficios de Negocio Cuantificados",
+    metrics: [
+      {
+        value: "6X",
+        description: "menor TCO que bases de datos tradicionales",
+        category: "Costos",
+        icon: "DollarSign"
+      },
+      {
+        value: "30%",
+        description: "aumento en productividad de equipos",
+        category: "Productividad",
+        icon: "TrendingUp"
+      },
+      {
+        value: "3X",
+        description: "más rápido desarrollo de aplicaciones de IA",
+        category: "Velocidad",
+        icon: "Rocket"
+      },
+      {
+        value: "5X",
+        description: "mejor rendimiento en throughput",
+        category: "Performance",
+        icon: "Zap"
+      },
+      {
+        value: "8X",
+        description: "mejor rendimiento con optimización inteligente",
+        category: "Optimización",
+        icon: "Cpu"
+      }
+    ]
+  },
+
+  comparison: {
+    title: "Comparación con la Competencia",
+    competitors: [
+      {
+        name: "Oracle",
+        comparison: "95% menos reescritura, 80% reducción de costos",
+        advantages: ["Menor costo", "Más flexible", "Sin vendor lock-in"],
+        score: 95
+      },
+      {
+        name: "Soluciones Cloud",
+        comparison: "Control total, sin vendor lock-in",
+        advantages: ["Soberanía de datos", "Multi-cloud", "Portabilidad"],
+        score: 90
+      },
+      {
+        name: "Bases de Datos Vectoriales",
+        comparison: "4.22X más rápido en consultas",
+        advantages: ["Rendimiento superior", "Funcionalidad completa", "Menos complejidad"],
+        score: 88
+      },
+      {
+        name: "Sistemas Fragmentados",
+        comparison: "Una sola plataforma unificada",
+        advantages: ["Simplicidad", "Menor mantenimiento", "Costos reducidos"],
+        score: 92
+      }
+    ]
+  },
+
+  nextSteps: {
+    title: "Próximos Pasos",
+    steps: [
+      {
+        step: "1",
+        title: "Evaluación Gratuita",
+        description: "Tech preview de EDB Postgres AI",
+        action: "Comenzar ahora",
+        duration: "15 minutos",
+        icon: "Play"
+      },
+      {
+        step: "2",
+        title: "Assessment de Migración",
+        description: "Análisis de su infraestructura actual",
+        action: "Programar sesión",
+        duration: "2 horas",
+        icon: "Search"
+      },
+      {
+        step: "3",
+        title: "Proof of Concept",
+        description: "Prueba piloto en su entorno",
+        action: "Planificar PoC",
+        duration: "2-4 semanas",
+        icon: "TestTube"
+      },
+      {
+        step: "4",
+        title: "Propuesta Personalizada",
+        description: "Contacto con ventas para su organización",
+        action: "Contactar equipo",
+        duration: "1 semana",
+        icon: "Users"
+      }
+    ],
+    contact: {
+      sales: "ventas@edb.com",
+      support: "soporte@edb.com",
+      technical: "tecnico@edb.com"
+    }
   }
 };
