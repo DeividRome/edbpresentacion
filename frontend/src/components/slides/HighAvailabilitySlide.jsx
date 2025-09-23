@@ -39,7 +39,7 @@ const HighAvailabilitySlide = ({ data }) => {
               <p className="text-sm sm:text-base text-gray-700">Minutos de caída máxima por año</p>
             </div>
             <div className="text-center">
-              <div className="text-xl sm:text-2xl font-bold text-green-600 mb-2">< 30</div>
+              <div className="text-xl sm:text-2xl font-bold text-green-600 mb-2">&lt; 30</div>
               <p className="text-sm sm:text-base text-gray-700">Segundos de recuperación</p>
             </div>
             <div className="text-center">
