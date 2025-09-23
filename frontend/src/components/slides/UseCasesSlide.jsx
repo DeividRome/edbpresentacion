@@ -72,7 +72,7 @@ const UseCasesSlide = ({ data }) => {
       {/* Customer Testimonials */}
       <div className="mb-8">
         <h2 className="text-xl sm:text-2xl font-bold text-[#043172] text-center mb-6">
-          Lo que Dicen Nuestros Clientes
+          Lo que dicen nuestros clientes
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6">
@@ -110,7 +110,7 @@ const UseCasesSlide = ({ data }) => {
       {/* ROI Summary */}
       <div className="text-center p-6 sm:p-8 bg-gradient-to-r from-[#043172] to-[#50E4FE] rounded-2xl text-white">
         <h2 className="text-xl sm:text-2xl font-bold mb-4">
-          Resultados Comprobados en el Mundo Real
+          Resultados comprobados en el Mundo Real
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mt-6">
           <div className="text-center">
