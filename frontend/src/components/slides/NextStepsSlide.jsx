@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Search, TestTube, Users, Mail, Phone, MessageCircle, ArrowRight } from 'lucide-react';
+import { Play, Search, TestTube, Users, Mail, Phone, MessageCircle } from 'lucide-react';
 import { Card } from '../ui/card';
 import { Button } from '../ui/button';
 
@@ -74,11 +74,10 @@ const NextStepsSlide = ({ data }) => {
               
               {/* Action Button */}
               <Button 
-                size="lg" 
+                size="sm" 
                 className={`w-full bg-gradient-to-r ${colors[index]} hover:opacity-90 text-white text-xs sm:text-sm group-hover:shadow-lg transition-all duration-200`}
               >
                 {step.action}
-                <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
               </Button>
             </Card>
           );
